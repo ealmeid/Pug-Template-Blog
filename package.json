@@ -1,0 +1,17 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "CPS630 Lab 5",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon server.js -e js,pug",
+    "start": "node server.js"
+  },
+  "author": "Evan Almeida <evan.almeida@ryerson.ca>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "pug": "^2.0.0-beta11"
+  }
+}
