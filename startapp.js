@@ -16,7 +16,7 @@ app.get('/', function (req, res, next) {
     try {
 
         // render the 'index' template, and pass in a few variables
-        res.render('index', { title: 'Hey', message: 'Hello there!' });
+        res.render('index', { title: 'CPS630 - Lab 5' });
 
     } catch (e) { // if there are any errors, send them off the the logger
         next(e);
